@@ -63,7 +63,7 @@ public class S3FileEntrySettings {
 	 */
 	public S3FileEntrySettings() {
 		setClassSetting(S3FileEntrySettings.FILE_ENTRY_HANDLER_TYPE, ActualDeleteFileEntryHandler.class);
-		//TODO: Fix this
+		//TODO: Fix this -- need to understand what?
 //		setClassSetting(S3FileEntrySettings.INDEX_INPUT_TYPE_SETTING, FetchOnBufferReadS3IndexInput.class);
 		setClassSetting(S3FileEntrySettings.INDEX_INPUT_TYPE_SETTING, S3IndexInput.class);
 		setClassSetting(S3FileEntrySettings.INDEX_OUTPUT_TYPE_SETTING, RAMS3IndexOutput.class);
