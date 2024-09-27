@@ -29,7 +29,7 @@ import static org.junit.Assert.*;
  */
 public class S3FileEntrySettingsTest {
 
-	@Ignore // for now, cause we need to understand this
+	@Ignore // TODO for now, cause we need to understand this
 	@Test
 	public void testDefaultSettings() throws Exception {
 		final S3FileEntrySettings settings = new S3FileEntrySettings();
